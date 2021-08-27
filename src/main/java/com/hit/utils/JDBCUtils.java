@@ -48,10 +48,6 @@ public class JDBCUtils {
      * @Version 1.0
      */
     public static Connection getConnectionDruid(){
-        System.out.println("hello world");
-        System.out.println("Hello World");
-        System.out.println("Hello Git");
-        System.out.println("Hello Hub");
         Connection connection = conns.get();
         if(connection == null){
             try {
