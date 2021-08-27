@@ -52,8 +52,6 @@ public class JDBCUtils {
         System.out.println("Hello World");
         System.out.println("Hello Git");
         System.out.println("Hello Hub");
-        System.out.println("Hello Hub");
-        System.out.println("Hello Hub");
         Connection connection = conns.get();
         if(connection == null){
             try {
