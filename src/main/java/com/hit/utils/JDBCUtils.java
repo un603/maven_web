@@ -48,6 +48,7 @@ public class JDBCUtils {
      * @Version 1.0
      */
     public static Connection getConnectionDruid(){
+        System.out.println("hello world");
         Connection connection = conns.get();
         if(connection == null){
             try {
